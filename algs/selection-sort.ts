@@ -1,5 +1,6 @@
-export {};
-const arr = [2, 3, 9, 4, 0, 1, 5, 11, 11, 19, 27, 25];
+import { arrayToSort } from "../data";
+
+const arr = [...arrayToSort];
 
 enum ORDER {
   ASC,
